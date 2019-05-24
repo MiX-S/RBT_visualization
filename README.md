@@ -1,5 +1,6 @@
 # Red-Black Tree Visualization
 Realization of desktop application, which demonstrates RBTree
+
 Current inplementation in Python with Tkinter library
 
 Contains files
@@ -12,6 +13,11 @@ Contains files
 Supports:
 - addition
 - deletion
+
+# Running on local machine
+1. Download BSTree.py, RBTree.py, frame.py, main.py files in one directory
+2. Install Tkinter library for python 3 interpreter
+3. Run main.py
 
 # Note
 Support only integer keys for addition
