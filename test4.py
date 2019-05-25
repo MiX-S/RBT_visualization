@@ -11,9 +11,10 @@ random.shuffle(L)
 
 root = Tk()
 rbt = RBT()
-frame = MainFrame(root, rbt, speed=10, d=30, size=(800, 600))
+frame = MainFrame(root, rbt, speed=3, d=25, size=(800, 600))
 rbt.add_frame(frame)
 
+time.sleep(5)
 for i in range(N):
     rbt.insert(i, str(i))
     try:
@@ -23,7 +24,7 @@ for i in range(N):
         print('Error node:', e.node)
         raise
 rbt.prefix_traverse(['color'])
-time.sleep(3)
+time.sleep(1)
 
 print('#######################################')
 
